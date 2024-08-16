@@ -1,0 +1,23 @@
+bcryptjs - criptografar as nossas senhas.
+
+connect-flash - permite que os desenvolvedores enviem uma mensagem sempre que um usuário estiver redirecionando para uma página da web especificada. 
+
+cookie-parser - armazenar dados dos usuários no navegador.
+
+cookie-session - armazena informações temporárias no computador do usuário.
+
+express-flash - permite o envio de menssagens flash.
+
+express-handlebars
+
+express-session - armazenar dados das sessões no servidor
+
+session-file-store - armazena dados de sessões
+
+mysql2
+
+nodemon
+
+sequelize
+
+express

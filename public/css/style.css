@@ -1,0 +1,117 @@
+*{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #222;
+    color: #fff;
+}
+.messages{
+    padding: 1em;
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    border-radius: 4px;
+    margin: 0 auto 2em;
+    max-width: 60%;
+}
+#logo img{
+    height: 40px;
+}
+#navbar{
+    padding: 1.2em 1.4em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f6982d;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+#navbar ul li{
+    margin-left: 1em;
+}
+#navbar ul li a{
+    text-decoration: none;
+    transition: .5s;
+    font-weight: bold;
+}
+#navbar ul li a:hover{
+    color: #f6982d;
+}
+.container{
+    max-width: 960px;
+    min-height: 60vh;
+    padding: 2em;
+    margin: 0 auto;
+}
+.auth-container{
+    max-width: 450px;
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.auth-container h2{
+    margin-bottom: 1em;
+    color: #fff;
+    border-left: 4px solid #f6982d;
+    padding: 0.3em;
+    width: 100px;
+}
+.auth-container a{
+    color: #f6982d;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    width: 100%;
+}
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.form-control input,
+.form-control textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #f6982d;
+    outline: transparent;
+    background-color: transparent;
+    
+}
+form input[type="submit"],
+.btn{
+    cursor: pointer;
+    margin-top: 2em;
+    background-color: transparent;
+    border: 2px solid #f6982d;
+    padding: 0.5em 1.2em;
+    border-radius: 4px;
+    margin-bottom: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+    color: #f6982d;
+}
+form input[type="submit"]:hover,
+.btn:hover{
+    background-color: #f6982d;
+    color: #fff;
+}
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #f6982d;
+}
+footer span{
+    font-weight: bold;
+    color: #f6982d;
+}
